@@ -13,6 +13,11 @@ if UseGaut == "Use" then
     bot.auto_collect = false
 end
 
+if UseGaut == "No" then
+    bot.auto_collect = true
+    bot.collect_set = 4
+end
+
 function AnlikYer()
     Dunyadami = tostring(world.name)
     if Dunyadami ~= "" and Dunyadami ~= "EXIT" then
