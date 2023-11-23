@@ -405,6 +405,7 @@ function PNB()
             sleep(1000)
         end
     end
+    sleep(1000)
     AnlikYer()
     bot:wrench(Botx,Boty+1)
     sleep(3000)
@@ -417,6 +418,7 @@ function PNB()
             sleep(500)
         end
     end
+    sleep(1000)
     AnlikYer()
     bot:wrench(Botx,Boty+1)
     sleep(3000)
